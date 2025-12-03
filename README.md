@@ -24,3 +24,19 @@
    Mở terminal (Command Prompt) tại thư mục dự án và chạy lệnh:
    ```bash
    pip install -r requirements.txt
+
+## ▶️ Hướng dẫn sử dụng
+1. Chạy ứng dụng: Trong terminal, chạy lệnh: streamlit run app.py
+
+2. Truy cập: Mở trình duyệt web và truy cập địa chỉ hiển thị trên terminal (thường là: http://localhost:8501).
+
+3. Thao tác:
+Nhập câu tiếng Việt vào ô văn bản -> Nhấn nút "Phân tích" -> Xem kết quả và lịch sử ở bảng bên cạnh.
+
+## 📝 Ghi chú kỹ thuật
+Model sử dụng: wonrax/phobert-base-vietnamese-sentiment (hoặc lxyuan/distilbert-base-multilingual-cased-sentiments-student).
+
+Cơ sở dữ liệu: SQLite3.
+
+
+
